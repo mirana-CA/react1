@@ -1,0 +1,17 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+  a {
+    color: black;
+    font-size: 18px;
+    border-right: 1px solid black;
+    padding:0 20px 0  5px;
+  }
+  li:last-child a {
+    border: none;
+  }
+
+}
